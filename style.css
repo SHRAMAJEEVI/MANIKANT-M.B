@@ -1,5 +1,22 @@
 body{
     background-color: rgb(224, 212, 212);
+    animation-name: coloranimate;
+    animation-duration:7s;
+    animation-iteration-count: infinite;
+
+    
+}
+@keyframes coloranimate{
+    from{background-color: aliceblue;}
+    to{background-color: rgb(195, 221, 221);}
+    
+
+}
+
+body:hover{
+    font-style:italic;
+    
+
 }
 
 #option value{
@@ -12,3 +29,16 @@ div{
      border-radius: 100;
 }
     
+#sirsi
+{background-color: blue;
+}
+h1:hover{
+    background-color: rgb(167, 167, 250);
+}
+button{
+    background-color: rgb(205, 244, 244);
+}
+button:hover{
+    background-color: blue;
+    color: white;
+}
